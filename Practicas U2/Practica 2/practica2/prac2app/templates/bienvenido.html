@@ -1,0 +1,119 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h1>Autores</h1>
+        <a href="autor/agregar">Agregar autor</a>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                    <th>Pais</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for autor in autores%}
+                <tr>
+                    <td>{{autor.id}}</td>
+                    <td>{{autor.nombre}}</td>
+                    <td>{{autor.edad}}</td>
+                    <td>{{autor.pais}}</td>
+                    <td><a href="autor/detalle/{{autor.id}}">Detalle</a></td>
+                    <td><a href="autor/editar/{{autor.id}}">Editar</a></td>
+                    <td><a href="autor/eliminar/{{autor.id}}">Eliminar</a></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <h1>Libros</h1>
+        <a href="libro/agregar">Agregar libro</a>
+        <table border="1">
+            <thead>
+                <tr>
+                    <TH>Id</TH>
+                    <th>Nombre</th>
+                    <th>Genero</th>
+                    <th>Autor</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for libro in libros %}
+                <tr>
+                    <td>{{libro.id}}</td>
+                    <td>{{libro.nombre}}</td>
+                    <td>{{libro.genero}}</td>
+                    <td>{{libro.autor}}</td>
+                    <td><a href="libro/detalle/{{libro.id}}">Detalle</a></td>
+                    <td><a href="libro/editar/{{libro.id}}">Editar</a></td>
+                    <td><a href="libro/eliminar/{{libro.id}}">Eliminar</a></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <h1>Biblioteca</h1>
+        <a href="biblioteca/agregar">Agregar biblioteca</a>
+        <table border="1">
+            <thead>
+                <tr>
+                    <TH>Id</TH>
+                    <th>Nombre</th>
+                    <th>Pais</th>
+                    <th>Fecha de fundacion</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for biblioteca in bibliotecas%}
+                <tr>
+                    <td>{{biblioteca.id}}</td>
+                    <td>{{biblioteca.nombre}}</td>
+                    <td>{{biblioteca.pais}}</td>
+                    <td>{{biblioteca.fechafundacion}}</td>
+                    <td><a href="biblioteca/detalle/{{biblioteca.id}}">Detalle</a></td>
+                    <td><a href="biblioteca/editar/{{biblioteca.id}}">Editar</a></td>
+                    <td><a href="biblioteca/eliminar/{{biblioteca.id}}">Eliminar</a></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <h1>Editora</h1>
+        <a href="editora/agregar">Agregar editora</a>
+        <table border="1">
+            <thead>
+                <tr>
+                    <TH>Id</TH>
+                    <th>Nombre</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                {% for editora in editors %}
+                <tr>
+                    <td>{{editora.id}}</td>
+                    <td>{{editora.nombre}}</td>
+                    
+                    <td><a href="editora/detalle/{{editora.id}}">Detalle</a></td>
+                    <td><a href="editora/editar/{{editora.id}}">Editar</a></td>
+                    <td><a href="editora/eliminar/{{editora.id}}">Eliminar</a></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>

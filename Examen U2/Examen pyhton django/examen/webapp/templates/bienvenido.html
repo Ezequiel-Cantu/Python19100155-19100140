@@ -1,0 +1,137 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h1>Artista</h1>
+        <a href="artista/agregar">Agregar Artista</a>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Pais</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for artista in artistas%}
+                <tr>
+                    <td>{{artista.id}}</td>
+                    <td>{{artista.nombre}}</td>
+                    <td>{{artista.pais}}</td>
+                    <td><a href="artista/detalle/{{artista.id}}">Detalle</a></td>
+                    <td><a href="artista/editar/{{artista.id}}">Editar</a></td>
+                    <td><a href="artista/eliminar/{{artista.id}}">Eliminar</a></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <h1>obras</h1>
+        <a href="obra/agregar">Agregar obra</a>
+        <table border="1">
+            <thead>
+                <tr>
+                    <TH>Id</TH>
+                    <th>Nombre</th>
+                    <th>Artista</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for obra in obras %}
+                <tr>
+                    <td>{{obra.id}}</td>
+                    <td>{{obra.nombre}}</td>
+                    <td>{{obra.artista}}</td>
+                    <td><a href="obra/detalle/{{obra.id}}">Detalle</a></td>
+                    <td><a href="obra/editar/{{obra.id}}">Editar</a></td>
+                    <td><a href="obra/eliminar/{{obra.id}}">Eliminar</a></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <h1>escuela</h1>
+        <a href="escuela/agregar">Agregar escuela</a>
+        <table border="1">
+            <thead>
+                <tr>
+                    <TH>Id</TH>
+                    <th>Nombre</th>
+                    <th>Disciplina</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for escuela in escuelas%}
+                <tr>
+                    <td>{{escuela.id}}</td>
+                    <td>{{escuela.nombre}}</td>
+                    <td>{{escuela.disciplina}}</td>
+                    <td><a href="escuela/detalle/{{escuela.id}}">Detalle</a></td>
+                    <td><a href="escuela/editar/{{escuela.id}}">Editar</a></td>
+                    <td><a href="escuela/eliminar/{{escuela.id}}">Eliminar</a></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <h1>disciplina</h1>
+        <a href="disciplina/agregar">Agregar disciplina</a>
+        <table border="1">
+            <thead>
+                <tr>
+                    <TH>Id</TH>
+                    <th>Nombre</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                {% for disciplina in disciplinas %}
+                <tr>
+                    <td>{{disciplina.id}}</td>
+                    <td>{{disciplina.nombre}}</td>
+                    
+                    <td><a href="disciplina/detalle/{{disciplina.id}}">Detalle</a></td>
+                    <td><a href="disciplina/editar/{{disciplina.id}}">Editar</a></td>
+                    <td><a href="disciplina/eliminar/{{disciplina.id}}">Eliminar</a></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <h1>Museos</h1>
+        <a href="museo/agregar">Agregar disciplina</a>
+        <table border="1">
+            <thead>
+                <tr>
+                    <TH>Id</TH>
+                    <th>Nombre</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                {% for museo in museos %}
+                <tr>
+                    <td>{{museo.id}}</td>
+                    <td>{{museo.nombre}}</td>
+                    <td><a href="museo/detalle/{{museo.id}}">Detalle</a></td>
+                    <td><a href="museo/editar/{{museo.id}}">Editar</a></td>
+                    <td><a href="museo/eliminar/{{museo.id}}">Eliminar</a></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>

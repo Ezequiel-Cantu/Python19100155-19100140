@@ -1,0 +1,59 @@
+10:10:48 AM: DEBUG [Conexion.py]: 29 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x02550F40>
+10:10:48 AM: DEBUG [Conexion.py]: 41 Conexion obtenida: <connection object at 0x016F8A40; dsn: 'user=postgres password=xxx dbname=ex2_problema1 host=127.0.0.1 port=5432', closed: 0>
+10:10:48 AM: DEBUG [PersonaDao.py]: 53 Personas insertadas 1
+10:10:48 AM: DEBUG [Conexion.py]: 41 Conexion obtenida: <connection object at 0x03F561F0; dsn: 'user=postgres password=xxx dbname=ex2_problema1 host=127.0.0.1 port=5432', closed: 0>
+10:12:02 AM: DEBUG [Conexion.py]: 29 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x01FC1D00>
+10:12:02 AM: DEBUG [Conexion.py]: 41 Conexion obtenida: <connection object at 0x039C50C0; dsn: 'user=postgres password=xxx dbname=ex2_problema1 host=127.0.0.1 port=5432', closed: 0>
+10:12:02 AM: DEBUG [PersonaDao.py]: 53 Personas insertadas 1
+10:12:02 AM: DEBUG [Conexion.py]: 41 Conexion obtenida: <connection object at 0x039C5158; dsn: 'user=postgres password=xxx dbname=ex2_problema1 host=127.0.0.1 port=5432', closed: 0>
+10:19:50 AM: DEBUG [Conexion.py]: 29 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x02508118>
+10:19:50 AM: DEBUG [Conexion.py]: 41 Conexion obtenida: <connection object at 0x03ED6158; dsn: 'user=postgres password=xxx dbname=ex2_problema1 host=127.0.0.1 port=5432', closed: 0>
+10:19:50 AM: DEBUG [PersonaDao.py]: 53 Personas insertadas 1
+10:19:50 AM: DEBUG [Conexion.py]: 41 Conexion obtenida: <connection object at 0x03ED61F0; dsn: 'user=postgres password=xxx dbname=ex2_problema1 host=127.0.0.1 port=5432', closed: 0>
+10:20:17 AM: DEBUG [Conexion.py]: 29 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x016F1CE8>
+10:20:17 AM: DEBUG [Conexion.py]: 41 Conexion obtenida: <connection object at 0x030A50C0; dsn: 'user=postgres password=xxx dbname=ex2_problema1 host=127.0.0.1 port=5432', closed: 0>
+10:20:17 AM: DEBUG [PersonaDao.py]: 53 Personas insertadas 1
+10:20:17 AM: DEBUG [Conexion.py]: 41 Conexion obtenida: <connection object at 0x030A5158; dsn: 'user=postgres password=xxx dbname=ex2_problema1 host=127.0.0.1 port=5432', closed: 0>
+10:29:49 AM: DEBUG [Conexion.py]: 29 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x034DC460>
+10:29:49 AM: DEBUG [Conexion.py]: 41 Conexion obtenida: <connection object at 0x034D9158; dsn: 'user=postgres password=xxx dbname=ex2_problema1 host=127.0.0.1 port=5432', closed: 0>
+10:29:49 AM: DEBUG [PersonaDao.py]: 62 Personas insertadas 1
+10:29:49 AM: DEBUG [Conexion.py]: 41 Conexion obtenida: <connection object at 0x034D91F0; dsn: 'user=postgres password=xxx dbname=ex2_problema1 host=127.0.0.1 port=5432', closed: 0>
+10:30:52 AM: DEBUG [Conexion.py]: 29 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x03A9C460>
+10:30:52 AM: DEBUG [Conexion.py]: 41 Conexion obtenida: <connection object at 0x03A99158; dsn: 'user=postgres password=xxx dbname=ex2_problema1 host=127.0.0.1 port=5432', closed: 0>
+10:30:52 AM: DEBUG [PersonaDao.py]: 62 Personas insertadas 1
+10:30:53 AM: DEBUG [Conexion.py]: 41 Conexion obtenida: <connection object at 0x03A991F0; dsn: 'user=postgres password=xxx dbname=ex2_problema1 host=127.0.0.1 port=5432', closed: 0>
+10:31:23 AM: DEBUG [Conexion.py]: 29 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x01C03DF0>
+10:31:23 AM: DEBUG [Conexion.py]: 41 Conexion obtenida: <connection object at 0x035E6158; dsn: 'user=postgres password=xxx dbname=ex2_problema1 host=127.0.0.1 port=5432', closed: 0>
+10:31:58 AM: DEBUG [Conexion.py]: 29 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x01B55AD8>
+10:31:58 AM: DEBUG [Conexion.py]: 41 Conexion obtenida: <connection object at 0x035530C0; dsn: 'user=postgres password=xxx dbname=ex2_problema1 host=127.0.0.1 port=5432', closed: 0>
+10:33:06 AM: DEBUG [Conexion.py]: 29 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x01805AD8>
+10:33:06 AM: DEBUG [Conexion.py]: 41 Conexion obtenida: <connection object at 0x031E30C0; dsn: 'user=postgres password=xxx dbname=ex2_problema1 host=127.0.0.1 port=5432', closed: 0>
+10:33:41 AM: DEBUG [Conexion.py]: 29 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x022C5AD8>
+10:33:41 AM: DEBUG [Conexion.py]: 41 Conexion obtenida: <connection object at 0x03CC30C0; dsn: 'user=postgres password=xxx dbname=ex2_problema1 host=127.0.0.1 port=5432', closed: 0>
+10:33:41 AM: DEBUG [ContratoDao.py]: 53 Contratos insertados 1
+10:33:41 AM: DEBUG [Conexion.py]: 41 Conexion obtenida: <connection object at 0x03CC3158; dsn: 'user=postgres password=xxx dbname=ex2_problema1 host=127.0.0.1 port=5432', closed: 0>
+10:33:52 AM: DEBUG [Conexion.py]: 29 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x01AD5AD8>
+10:33:52 AM: DEBUG [Conexion.py]: 41 Conexion obtenida: <connection object at 0x034E30C0; dsn: 'user=postgres password=xxx dbname=ex2_problema1 host=127.0.0.1 port=5432', closed: 0>
+10:33:52 AM: DEBUG [ContratoDao.py]: 53 Contratos insertados 1
+10:33:52 AM: DEBUG [Conexion.py]: 41 Conexion obtenida: <connection object at 0x034E3158; dsn: 'user=postgres password=xxx dbname=ex2_problema1 host=127.0.0.1 port=5432', closed: 0>
+10:35:38 AM: DEBUG [Conexion.py]: 29 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x01E59A30>
+10:35:38 AM: DEBUG [Conexion.py]: 41 Conexion obtenida: <connection object at 0x03865158; dsn: 'user=postgres password=xxx dbname=ex2_problema1 host=127.0.0.1 port=5432', closed: 0>
+10:35:38 AM: DEBUG [ContratoPersonaDao.py]: 37 Registros insertados 1
+10:39:42 AM: DEBUG [Conexion.py]: 29 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x0404C4D8>
+10:39:42 AM: DEBUG [Conexion.py]: 41 Conexion obtenida: <connection object at 0x04049158; dsn: 'user=postgres password=xxx dbname=ex2_problema1 host=127.0.0.1 port=5432', closed: 0>
+10:39:42 AM: DEBUG [PersonaDao.py]: 62 Personas insertadas 1
+10:39:42 AM: DEBUG [Conexion.py]: 41 Conexion obtenida: <connection object at 0x040491F0; dsn: 'user=postgres password=xxx dbname=ex2_problema1 host=127.0.0.1 port=5432', closed: 0>
+10:41:53 AM: DEBUG [Conexion.py]: 29 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x0315C4F0>
+10:41:53 AM: DEBUG [Conexion.py]: 41 Conexion obtenida: <connection object at 0x03159158; dsn: 'user=postgres password=xxx dbname=ex2_problema1 host=127.0.0.1 port=5432', closed: 0>
+10:41:53 AM: DEBUG [PersonaDao.py]: 62 Personas insertadas 1
+10:41:53 AM: DEBUG [Conexion.py]: 41 Conexion obtenida: <connection object at 0x031591F0; dsn: 'user=postgres password=xxx dbname=ex2_problema1 host=127.0.0.1 port=5432', closed: 0>
+10:42:17 AM: DEBUG [Conexion.py]: 29 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x0347C4D8>
+10:42:17 AM: DEBUG [Conexion.py]: 41 Conexion obtenida: <connection object at 0x03479158; dsn: 'user=postgres password=xxx dbname=ex2_problema1 host=127.0.0.1 port=5432', closed: 0>
+10:42:17 AM: DEBUG [PersonaDao.py]: 62 Personas insertadas 1
+10:42:17 AM: DEBUG [Conexion.py]: 41 Conexion obtenida: <connection object at 0x034791F0; dsn: 'user=postgres password=xxx dbname=ex2_problema1 host=127.0.0.1 port=5432', closed: 0>
+10:42:57 AM: DEBUG [Conexion.py]: 29 Creacion del pool <psycopg2.pool.SimpleConnectionPool object at 0x03B8C4D8>
+10:42:57 AM: DEBUG [Conexion.py]: 41 Conexion obtenida: <connection object at 0x03B89158; dsn: 'user=postgres password=xxx dbname=ex2_problema1 host=127.0.0.1 port=5432', closed: 0>
+10:42:57 AM: DEBUG [PersonaDao.py]: 62 Personas insertadas 1
+10:42:57 AM: DEBUG [Conexion.py]: 41 Conexion obtenida: <connection object at 0x03B891F0; dsn: 'user=postgres password=xxx dbname=ex2_problema1 host=127.0.0.1 port=5432', closed: 0>
+10:42:57 AM: DEBUG [PersonaDao.py]: 65 Suma 1
+10:42:58 AM: DEBUG [Conexion.py]: 41 Conexion obtenida: <connection object at 0x03B89288; dsn: 'user=postgres password=xxx dbname=ex2_problema1 host=127.0.0.1 port=5432', closed: 0>
